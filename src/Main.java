@@ -10,11 +10,11 @@ public class Main {
     Course course = new Course();
     course.setName("JorobaiSultanov");
     course.setNumber(12);
-    course.setTeacher("Gulnura");
+    course.setTeacher("Gulnur");
     course.setAge(28);
     course.setStartingday("6.06.23");
     System.out.println(student.getName()+"\n"+student.getHowmanycourses()+"\n"+student.getProfession()+"\n"+student.getHowoldishe());
-
+        System.out.println();
     System.out.println(course.getName()+"\n"+course.getNumber()+"\n"+course.getTeacher()+"\n"+course.getAge()+"\n"+course.getStartingday());
 
 
